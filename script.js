@@ -20,8 +20,8 @@ function multiply () {
   }
   // same as the first number
   if (secondNum < 0) {
-  negative = !negative
-  secondNum = Math.abs(secondNum)
+    negative = !negative
+    secondNum = Math.abs(secondNum)
   }
   // a loop that adds the numbers together as many times as it needs to in order to simulate multiplication, adds to the counter each time it loops
   for (counter = 0; counter < firstNum; counter++) {
