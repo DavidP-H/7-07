@@ -17,8 +17,8 @@ function multiply () {
   if (firstNum < 0) {
     negative = !negative
     firstNum = Math.abs(firstNum)
-    }
-    // same as the first number
+  }
+  // same as the first number
   if (secondNum < 0) {
   negative = !negative
   secondNum = Math.abs(secondNum)
